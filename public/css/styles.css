@@ -1,0 +1,56 @@
+#app {
+  width: 60%;
+  margin: 0 auto;
+  font-family: 'Lato', sans-serif;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+li {
+  margin: 20px 0;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+li span {
+  padding: 8px;
+}
+
+li.Low {
+  color: white;
+  background-color: green;
+  border: 2px solid darkgreen;
+
+}
+
+li.High {
+  color: white;
+  border: 2px solid red;
+  background-color: darkred;
+
+}
+
+input[type="text"] {
+  padding: 10px;
+  width: 50%;
+}
+
+input[type="submit"]{
+  padding: 10px;
+  background: black;
+  color: white;
+  cursor: pointer;
+  border: 1px solid #000;
+}
+
+form {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+}
